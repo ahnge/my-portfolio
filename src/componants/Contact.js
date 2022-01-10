@@ -62,18 +62,21 @@ const Contact = () => {
               placeholder="name"
               className=" focus:outline-none px-5 py-1 rounded-md block border-b-4 w-full border-purple-400"
               name="user_name"
+              required
             />
             <input
               type="text"
               placeholder="subject"
               className=" focus:outline-none px-5 py-1 rounded-md block border-b-4 w-full border-purple-400"
               name="user_subject"
+              required
             />
             <input
               type="email"
               placeholder="email"
               className=" focus:outline-none px-5 py-1 rounded-md block border-b-4 w-full border-purple-400"
               name="user_email"
+              required
             />
             <textarea
               cols="30"
@@ -81,6 +84,7 @@ const Contact = () => {
               placeholder="abc"
               className=" focus:outline-none px-5 py-1 rounded-md block border-b-4 w-full border-purple-400"
               name="message"
+              required
             ></textarea>
             <button
               type="submit"
